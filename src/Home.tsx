@@ -559,7 +559,7 @@ const Home = (props: HomeProps) => {
                 <br/>
                 <MintContainer>
                    
-                       
+                        <NFT elevation={3}>
                            
                             <br/>
                            <br/>
