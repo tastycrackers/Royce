@@ -562,7 +562,9 @@ const Home = (props: HomeProps) => {
                         <NFT elevation={3}>
                            
                             <br/>
-                            <div>
+                            <div><Price
+                                label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/></div>
+                            <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
                               <h3>You own {whitelistTokenBalance} WL mint {whitelistTokenBalance > 1 ? "tokens" : "token" }.</h3>}
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && !isBurnToken &&
@@ -642,7 +644,7 @@ const Home = (props: HomeProps) => {
                               <SolExplorerLink href={solanaExplorerLink} target="_blank">View on Solscan</SolExplorerLink>}
                         </NFT>
                     </DesContainer>
-                
+                 
                 </MintContainer>
             </MainContainer>
             <Snackbar
