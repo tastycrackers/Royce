@@ -560,7 +560,9 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                    
                         <NFT elevation={3}>
-                           <img src="r_asset.jpg">
+                           <Image
+                                src="r_asset.jpg"
+                                alt="asset"/>
                             <br/>
                            <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
