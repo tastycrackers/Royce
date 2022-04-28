@@ -558,7 +558,7 @@ const Home = (props: HomeProps) => {
                 </WalletContainer>
                 <br/>
                 <MintContainer>
-                    <DesContainer>
+                   
                         <NFT elevation={3}>
                            
                             <br/>
@@ -641,7 +641,7 @@ const Home = (props: HomeProps) => {
                             {wallet && isActive && solanaExplorerLink &&
                               <SolExplorerLink href={solanaExplorerLink} target="_blank">View on Solscan</SolExplorerLink>}
                         </NFT>
-                    </DesContainer>
+                    
                  
                 </MintContainer>
             </MainContainer>
