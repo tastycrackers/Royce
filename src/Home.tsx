@@ -562,7 +562,7 @@ const Home = (props: HomeProps) => {
                         <NFT elevation={3}>
                            
                             <br/>
-                            <div><br/>
+                           <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
                               <h3>You own {whitelistTokenBalance} WL mint {whitelistTokenBalance > 1 ? "tokens" : "token" }.</h3>}
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && !isBurnToken &&
