@@ -85,7 +85,7 @@ const Des = styled(NFT)`
 
 const Card = styled(Paper)`
   display: inline-block;
-  background-color: var(card-background-lighter-color) !important;
+  
   margin: 5px;
   min-width: 40px;
   padding: 24px;
