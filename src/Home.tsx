@@ -555,7 +555,7 @@ const Home = (props: HomeProps) => {
                 <br/>
                 <MintContainer>
                    
-                       
+                        <Image src="r_asset.jpg" alt="asset"/>
                           
                             <br/>
                            <br/>
