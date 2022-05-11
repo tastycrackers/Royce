@@ -595,7 +595,7 @@ const Home = (props: HomeProps) => {
                                         renderer={renderGoLiveDateCounter}
                                     />) : (
                                     !wallet ? (
-                                            <ConnectButton>Connect Wallet</ConnectButton>
+                                            <ConnectButton>MINT THIS COLLECTION</ConnectButton>
                                         ) : (!isWLOnly || whitelistTokenBalance > 0) ?
                                         candyMachine?.state.gatekeeper &&
                                         wallet.publicKey &&
