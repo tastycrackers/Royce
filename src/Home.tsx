@@ -561,17 +561,6 @@ const Home = (props: HomeProps) => {
                    
                         <NFT elevation={3}>
                           
-                                 <span style="font-size: 1.3125rem; font-weight: 700;"> DETAILS<br>
-        </span>Title: Something's Amiss<br>Artist: Royce Egan<br>Software: Adobe Photoshop CC<br>Website: Royaceegan.com<br>IG: @royceegan<br>Twitter: @royceegan<br>Price per mint: 0.001SOL + SOL Gas<br>Chain: Solana mainnet<br>
-        <span class="u-text-white">Rights:&nbsp;<a class="css-tr1mtc e1opy4mz0 u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0↗</a>
-        </span>
-      </p>
-      <div class="u-black u-container-style u-group u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <h1 class="u-align-center u-custom-font u-text u-title u-text-2">SOMETHING'S AMISS</h1>
-          <p class="u-align-left u-custom-font u-large-text u-text u-text-variant u-text-3"> FEATURED PROJECT BY ROYCE ​EGAN<br>EDITIONS OF 3<br>Mint release: 9 May 2022 12PM UTC
-          </p>                    
-                            
                             <br/>
                            <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
