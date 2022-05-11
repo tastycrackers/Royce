@@ -70,11 +70,7 @@ const ConnectButton = styled(WalletMultiButton)`
 `;
 
 const NFT = styled(Paper)`
-  min-width: 500px;
-  padding: 5px 20px 20px 20px;
-  flex: 1 1 auto;
-  background-color: var(--card-background-color) !important;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+ 
 `;
 
 const Des = styled(NFT)`
@@ -206,7 +202,7 @@ const Price = styled(Chip)`
   margin: 5px;
   font-weight: bold;
   font-size: 1.2em !important;
-  font-family: 'Patrick Hand', cursive !important;
+  font-family: 'JOST' !important;
 `;
 
 const Image = styled.img`
