@@ -92,7 +92,7 @@ const Card = styled(Paper)`
 
 const MintButtonContainer = styled.div`
   button.MuiButton-contained:not(.MuiButton-containedPrimary).Mui-disabled {
-    color: #464646;
+    color: #000;
   }
 
   button.MuiButton-contained:not(.MuiButton-containedPrimary):hover,
