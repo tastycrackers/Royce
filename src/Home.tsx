@@ -561,25 +561,7 @@ const Home = (props: HomeProps) => {
                    
                         <NFT elevation={3}>
                           
-                             <section class="u-clearfix u-section-1" id="carousel_4b49">
-      <p class="u-custom-font u-text u-text-1">
-        <span style="font-size: 1.3125rem; font-weight: 700;"> DETAILS<br>
-        </span>Title: Something's Amiss<br>Artist: Royce Egan<br>Software: Adobe Photoshop CC<br>Website: Royaceegan.com<br>IG: @royceegan<br>Twitter: @royceegan<br>Price per mint: 0.001SOL + SOL Gas<br>Chain: Solana mainnet<br>
-        <span class="u-text-white">Rights:&nbsp;<a class="css-tr1mtc e1opy4mz0 u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0↗</a>
-        </span>
-      </p>
-      <div class="u-black u-container-style u-group u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <h1 class="u-align-center u-custom-font u-text u-title u-text-2">SOMETHING'S AMISS</h1>
-          <p class="u-align-left u-custom-font u-large-text u-text u-text-variant u-text-3"> FEATURED PROJECT BY ROYCE ​EGAN<br>EDITIONS OF 3<br>Mint release: 9 May 2022 12PM UTC
-          </p>
-          <a href="#" class="u-border-none u-btn u-button-style u-custom-color-1 u-custom-font u-btn-2">MINT THIS COLLECTION</a>
-        </div>
-      </div>
-      <img class="u-image u-image-round u-preserve-proportions u-radius-10 u-image-1" src="images/3.png" alt="" data-image-width="1400" data-image-height="1400">
-    </section>
-                            
-                            
+                                                    
                             
                             <br/>
                            <br/>
