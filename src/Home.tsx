@@ -554,7 +554,7 @@ const Home = (props: HomeProps) => {
                 </WalletContainer>
                 <br/>
                 <MintContainer>
-                   
+                    </DesContainer>
                         <Image src="r_asset.jpg" alt="asset"/>
                           
                             <br/>
@@ -637,10 +637,11 @@ const Home = (props: HomeProps) => {
                             {wallet && isActive && solanaExplorerLink &&
                               <SolExplorerLink href={solanaExplorerLink} target="_blank">View on Solscan</SolExplorerLink>}
                        
-                    
+                      </DesContainer>
                  
                 </MintContainer>
             </MainContainer>
+          
             <Snackbar
                 open={alertState.open}
                 autoHideDuration={6000}
