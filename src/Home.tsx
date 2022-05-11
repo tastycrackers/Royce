@@ -554,7 +554,7 @@ const Home = (props: HomeProps) => {
                 </WalletContainer>
                 <br/>
                 <MintContainer>
-                    </DesContainer>
+                    <DesContainer>
                         <Image src="r_asset.jpg" alt="asset"/>
                           
                             <br/>
