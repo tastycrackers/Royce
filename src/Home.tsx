@@ -183,7 +183,7 @@ const MainContainer = styled.div`
   margin-right: 4%;
   margin-left: 4%;
   text-align: center;
-  justify-content: center;
+  justify-content: right;
 `;
 
 const MintContainer = styled.div`
